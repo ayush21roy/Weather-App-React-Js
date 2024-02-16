@@ -46,7 +46,7 @@ function App() {
         {Object.keys(data).length > 0 &&
           <div className='card'>
             <div className='card-data'>
-              <img id='icon' src="./src/assets/weather-icon.png" />
+              <img id='icon' src=".//src/assets/weather-icon.png" />
               <h5 className='weatherCity font-col'>{data.name}</h5>
               <h6 className='weatherTemp font-col'>{((data?.main?.temp) - 273.15).toFixed(2)}°C</h6>
               <h6 className='humidity font-col'>Humidity : {data?.main?.humidity}%</h6>
