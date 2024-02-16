@@ -1,0 +1,76 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+#title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
+}
+
+#inputId {
+  width: 300px;
+  height: 30px;
+  padding: 4px 10px;
+  font-size: 20px;
+}
+
+button {
+  width: 320px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.card-data {
+  background: url(./assets/weather-bg.jpg);
+  width: 500px;
+  height: 300px;
+  background-color: #5f59597c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 2px solid #024e5f;
+}
+
+#icon {
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+}
+
+.weatherCity {
+  font-size: 30px;
+  margin-bottom: -26px;
+}
+
+.weatherTemp {
+  font-size: 20px;
+  margin-bottom: -19px;
+}
+
+.humidity {
+  font-size: 12px;
+}
+
+.font-col {
+  color: #024e5f;
+}
